@@ -9,12 +9,10 @@ PA.11
 PA.12
 PD.05 
 
-
 ===== I2C =====
 PORTB-->
 PB.06
 PB.09
-
 
 ===== LED =====
 PORTD-->
@@ -22,7 +20,6 @@ PD.12
 PD.13
 PD.14
 PD.15
-
 
 ===== SD Card =====
 PORTC-->
@@ -36,11 +33,9 @@ PC.12
 PD.02 
 PH.13
 
-
 ====== ADC =====
 PORTC-->
 PC.02
-
 
 ====== LMP 91k =====
 PORTD-->
@@ -54,12 +49,10 @@ PD.07
 PD.08
 PD.09
 
-
 ===== USART Dynament =====
 PORTA-->
 PA.02
 PA.03
-
 
 ====== KEYB ======
 PORTB--> строки
@@ -72,17 +65,14 @@ PD.01 - B
 PD.02 - C
 PD.03 - D
 
-
 ===== SPI Disp =====
 PORTB--> Управление. 
 Перекинули с PA2 и PA3
 PB.00 - Reset
 PB.01 - CD
 
-
 PORTB--> SPI
 PB.10 - SCK
 PB.14 - MISO, для этого дисплея не нужен
 PB.15 - MOSI
-
 
